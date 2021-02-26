@@ -1,2 +1,0 @@
-class t{constructor(t,e=!0){this.adaptee=t,this.router=this.adaptee(),this.logExceptions=e}route({verb:t,endpoint:e,middleware:r,routeHandler:s}){const o=this.catchExceptionsWrapper(s);this.router[t](e,...r,o)}use(t,e){this.router.use(t,e)}catchExceptionsWrapper(t){var e=this;return async function(r,s,o){try{return await t(r,s)}catch(t){return e.logExceptions&&console.log(t),o(t)}}}create(){return new t(this.adaptee,this.logExceptions)}build(){return this.router}}export{t as ExpressToBrowterAdapter};
-//# sourceMappingURL=index.modern.js.map

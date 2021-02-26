@@ -5,9 +5,18 @@
     "outDir": "dist",
     "strict": true,
     "sourceMap": true,
-    "lib": ["ES2015"],
+    "lib": [
+      "ES2015"
+    ],
     "esModuleInterop": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*-spec.ts", "src/__tests__/*", "src/mocks/*"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*-spec.ts",
+    "src/__tests__/*",
+    "src/mocks/*"
+  ]
 }

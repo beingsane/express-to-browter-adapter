@@ -2,7 +2,10 @@
   "name": "@donnyroufs/express-to-browter-adapter",
   "description": "Adapter for the Browter package to make Express work.",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "author": "Donny Roufs <iamchets@yahoo.com>",
   "license": "MIT",
   "scripts": {
