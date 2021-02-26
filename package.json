@@ -1,7 +1,7 @@
 {
   "name": "@donnyroufs/express-to-browter-adapter",
   "description": "Adapter for the Browter package to make Express work.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
